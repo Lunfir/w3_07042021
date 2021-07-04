@@ -10,6 +10,14 @@ void print(int arr[], int size) {
     printf("%d\n", arr[lim]);
 }
 
+// best:    reversed
+// worst:   sorted
+// average: -----
+// time: 
+// - best: O(N^N)
+// - worst&average: O(N^N)
+// memory:
+// - O(1)
 void selectSort(int arr[], int size) {
     for (int index = 0; index < size; index++) {
         int min = arr[index];
